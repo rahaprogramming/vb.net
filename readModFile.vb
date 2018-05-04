@@ -6,10 +6,6 @@ Public Class VB_CH9_Sup
 
     Private strWorkingString As String
 
-    Private Sub LoadToolStripMenuItem_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnSelectFile.Click
         Using ofd As New OpenFileDialog
 
